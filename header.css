@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Newrocker';
+  src: url(Newrocker-Gy5a.ttf);
+}
+
+.logo-menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.list-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Newrocker';
+  font-size: 25px;
+}
